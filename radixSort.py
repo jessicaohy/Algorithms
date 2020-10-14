@@ -1,5 +1,4 @@
 # Jessica Oh Hui Yu
-############################ Task 1 ###############################
 
 # counting sort
 def countingSort(inputList):                                    # inputList = [[ascii, (WORD, ID)],[ascii,(WORD,ID)]]
@@ -148,7 +147,6 @@ def process(filename):
     outputFile.close()                                                      # close file
 
 
-############################# Task 2 ################################
 
 def collate(filename):
     """
@@ -187,7 +185,6 @@ def collate(filename):
     outputFile.close()
 
 
-######################### Task 3 ##################################
 
 def lookup(collated_file, query_file):
     """
@@ -249,6 +246,6 @@ def lookup(collated_file, query_file):
 
 ############################################ M A I N ###############################################
 if __name__=="__main__":
-    process("example_songs.txt")                                            # Task 1
-    collate("sorted_words.txt")                                             # Task 2
-    lookup("collated_ids.txt", "example_queries.txt")                       # Task 3
+    process("example_songs.txt")
+    collate("sorted_words.txt")
+    lookup("collated_ids.txt", "example_queries.txt")                     
